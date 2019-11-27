@@ -82,6 +82,7 @@ for stock in stocks:
     xdata['fastd'] = fastd
 
     for m in columns:
+        #normalize train and test data to zero mean and unit variance
         meanSeq = np.mean(xdata[m][startingpoint:endtrainperiod])
         stdSeq = np.std(xdata[m][startingpoint:endtrainperiod])
 
