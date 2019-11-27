@@ -8,9 +8,11 @@ My tests only used Support Vector Machine (SVM), as this was noted as the best p
 # Best Results
 The absolule best results I could obtain when looping the ten technical indicators used in the paper to train / test, the sigmoid kernel, and all values for C (-5 to 15) and gamma (-15 to 3) - these results are much lower than those presented in the paper, especially in the short prediction horizons:
 
+```
 Pred step 1, input step 3, acc 53.8%
 Pred step 15, input step 15, acc 60.9%
 Pred step 30, input step 30, acc 64.9%
+```
 
 # Codes
 There are three main codes in the repo.
