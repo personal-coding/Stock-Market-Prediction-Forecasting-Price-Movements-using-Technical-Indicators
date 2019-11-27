@@ -1,5 +1,5 @@
 # Stock-Market-Predicition-Forecasting-Price-Movements-using-Technical-Indicators
-Trying to replicate the results in the paper "Forecasting Price Movements using Technical Indicators: Investigating the Impact of Varying Input Window Length." My general results show much lower prediciton accuracies than those noted in the paper, especially when it comes to short prediction horizons. Longer prediction horizons, with longer input windows for the technical indicators show potentially promising results.
+Trying to replicate the results in the paper "Forecasting Price Movements using Technical Indicators: Investigating the Impact of Varying Input Window Length." My general results show much lower prediction accuracies than those noted in the paper, especially when it comes to short prediction horizons. Longer prediction horizons, with longer input windows for the technical indicators show potentially promising results.
 
 My results use the terminology "pred step" and "input step." Pred step is the prediction horizon (i.e. predict if a stock is going up / down *t* days from now). Input step is the number of days used to create the technical indicators.
 
