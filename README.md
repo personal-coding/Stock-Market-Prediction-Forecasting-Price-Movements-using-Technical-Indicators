@@ -19,7 +19,7 @@ There are three main codes in the repo.
 
 GrabYahoo - Grabs data from Yahoo finance into the data folder. 40 stock data files are already downloaded for data from 1/29/2002 - 7/20/2012, which is the same date ranges used in the paper. The paper used 50 stocks, but I excluded 10 of the stocks from the paper due to either incomplete information or downloading data errors.
 
-SVM - Cross Validation - This uses a five-fold cross validation against the ten technical indicators used in the paper to train, then tests the prediction accuracy. The SVM is using the sigmoid kernel and a grid search for C (-5 to 15) and gamma (-15 to 3). Again, this matches the paper parameter.
+SVM - Cross Validation - This uses a five-fold cross validation against the ten technical indicators used in the paper to train, then tests the prediction accuracy. The SVM is using the sigmoid kernel and a grid search for C (-5 to 15) and gamma (-15 to 3). Again, this matches the paper parameters.
 
 SVM - Best Accuracy - This loops the SVM across the sigmoid kernel and all values for C (-5 to 15) and gamma (-15 to 3) to see what the best possible accuracies are.
 
