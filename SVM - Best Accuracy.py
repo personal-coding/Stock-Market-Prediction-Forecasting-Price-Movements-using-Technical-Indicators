@@ -107,7 +107,7 @@ for stock in stocks:
     best = bestval
 
     #Create a svm Classifier
-    clf = svm.SVC(kernel='rbf', C=best['C'], gamma=best['gamma'], cache_size=1200)
+    clf = svm.SVC(kernel='sigmoid', C=best['C'], gamma=best['gamma'], cache_size=1200)
 
     #Train the model using the training sets
     clf.fit(x_train, y_train)
