@@ -6,7 +6,7 @@ My results use the terminology "pred step" and "input step." Pred step is the pr
 My tests only used Support Vector Machine (SVM), as this was noted as the best performing machine learning technique in the paper.
 
 # Best Results
-The absolute best results I could obtain when looping the ten technical indicators used in the paper to train / test, the sigmoid kernel, and all values for C (-5 to 15) and gamma (-15 to 3) - these results are much lower than those presented in the paper, especially in the short prediction horizons:
+The absolute best results I could obtain when looping the ten technical indicators used in the paper to train / test, the sigmoid kernel, and all values for C (-5 to 15) and gamma (-15 to 3) - these results are much lower than those presented in the paper, especially in the shorter prediction horizons:
 
 ```
 Pred step 1, input step 3, acc 53.8%
